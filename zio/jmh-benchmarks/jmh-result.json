@@ -1,0 +1,400 @@
+[
+    {
+        "jmhVersion" : "1.29",
+        "benchmark" : "bench.PipelineOps.aliased",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Users/cdepaula/Library/Caches/Coursier/arc/https/github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.3.1/graalvm-ce-java17-darwin-amd64-22.3.1.tar.gz/graalvm-ce-java17-22.3.1/Contents/Home/bin/java",
+        "jvmArgs" : [
+            "-XX:ThreadPriorityPolicy=1",
+            "-XX:+UnlockExperimentalVMOptions",
+            "-XX:+EnableJVMCIProduct",
+            "-XX:JVMCIThreadsPerNativeLibraryRuntime=1",
+            "-XX:-UnlockExperimentalVMOptions"
+        ],
+        "jdkVersion" : "17.0.6",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "17.0.6+10-jvmci-22.3-b13",
+        "warmupIterations" : 10,
+        "warmupTime" : "100 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 15,
+        "measurementTime" : "100 ms",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 2.5893359033949426,
+            "scoreError" : 0.15405526586980398,
+            "scoreConfidence" : [
+                2.4352806375251386,
+                2.7433911692647466
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.404462688146141,
+                "50.0" : 2.553717889628164,
+                "90.0" : 2.8731070144042037,
+                "95.0" : 3.0212361948115265,
+                "99.0" : 3.0212361948115265,
+                "99.9" : 3.0212361948115265,
+                "99.99" : 3.0212361948115265,
+                "99.999" : 3.0212361948115265,
+                "99.9999" : 3.0212361948115265,
+                "100.0" : 3.0212361948115265
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    2.6053828483453914,
+                    2.553717889628164,
+                    2.573578283684296,
+                    2.5159128931420294,
+                    2.5247872633570543,
+                    3.0212361948115265,
+                    2.628882790431383,
+                    2.7743542274659885,
+                    2.582390499567768,
+                    2.5986102834017553,
+                    2.520683089108943,
+                    2.509091682981191,
+                    2.5198276234401176,
+                    2.507120293412397,
+                    2.404462688146141
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.29",
+        "benchmark" : "bench.PipelineOps.classic",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Users/cdepaula/Library/Caches/Coursier/arc/https/github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.3.1/graalvm-ce-java17-darwin-amd64-22.3.1.tar.gz/graalvm-ce-java17-22.3.1/Contents/Home/bin/java",
+        "jvmArgs" : [
+            "-XX:ThreadPriorityPolicy=1",
+            "-XX:+UnlockExperimentalVMOptions",
+            "-XX:+EnableJVMCIProduct",
+            "-XX:JVMCIThreadsPerNativeLibraryRuntime=1",
+            "-XX:-UnlockExperimentalVMOptions"
+        ],
+        "jdkVersion" : "17.0.6",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "17.0.6+10-jvmci-22.3-b13",
+        "warmupIterations" : 10,
+        "warmupTime" : "100 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 15,
+        "measurementTime" : "100 ms",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 2.5234178424026026,
+            "scoreError" : 0.07390197385286633,
+            "scoreConfidence" : [
+                2.4495158685497365,
+                2.5973198162554687
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.4315649093371805,
+                "50.0" : 2.502571836920701,
+                "90.0" : 2.653379784329849,
+                "95.0" : 2.7111297450672525,
+                "99.0" : 2.7111297450672525,
+                "99.9" : 2.7111297450672525,
+                "99.99" : 2.7111297450672525,
+                "99.999" : 2.7111297450672525,
+                "99.9999" : 2.7111297450672525,
+                "100.0" : 2.7111297450672525
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    2.4846236026298962,
+                    2.4896427188250723,
+                    2.524706081983011,
+                    2.4315649093371805,
+                    2.6148798105049127,
+                    2.7111297450672525,
+                    2.588595085287919,
+                    2.489653671671477,
+                    2.494918616312826,
+                    2.5350813914804458,
+                    2.5049459352273624,
+                    2.494546763885406,
+                    2.5262751716979075,
+                    2.4581322952076716,
+                    2.502571836920701
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.29",
+        "benchmark" : "bench.PipelineOps.infix",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Users/cdepaula/Library/Caches/Coursier/arc/https/github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.3.1/graalvm-ce-java17-darwin-amd64-22.3.1.tar.gz/graalvm-ce-java17-22.3.1/Contents/Home/bin/java",
+        "jvmArgs" : [
+            "-XX:ThreadPriorityPolicy=1",
+            "-XX:+UnlockExperimentalVMOptions",
+            "-XX:+EnableJVMCIProduct",
+            "-XX:JVMCIThreadsPerNativeLibraryRuntime=1",
+            "-XX:-UnlockExperimentalVMOptions"
+        ],
+        "jdkVersion" : "17.0.6",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "17.0.6+10-jvmci-22.3-b13",
+        "warmupIterations" : 10,
+        "warmupTime" : "100 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 15,
+        "measurementTime" : "100 ms",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 2.5656943404002064,
+            "scoreError" : 0.10894613123720119,
+            "scoreConfidence" : [
+                2.4567482091630053,
+                2.6746404716374075
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.468234366960216,
+                "50.0" : 2.539561465672315,
+                "90.0" : 2.724818919456601,
+                "95.0" : 2.8622382827811608,
+                "99.0" : 2.8622382827811608,
+                "99.9" : 2.8622382827811608,
+                "99.99" : 2.8622382827811608,
+                "99.999" : 2.8622382827811608,
+                "99.9999" : 2.8622382827811608,
+                "100.0" : 2.8622382827811608
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    2.5849592917077224,
+                    2.49044806836397,
+                    2.5166980082330874,
+                    2.4835763353198934,
+                    2.4769495562169634,
+                    2.4793970003999766,
+                    2.468234366960216,
+                    2.5320742485580507,
+                    2.542939811384819,
+                    2.6243976871437757,
+                    2.8622382827811608,
+                    2.624772729917837,
+                    2.633206010573561,
+                    2.625962242769754,
+                    2.539561465672315
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.29",
+        "benchmark" : "bench.PipelineOps.inline",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Users/cdepaula/Library/Caches/Coursier/arc/https/github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.3.1/graalvm-ce-java17-darwin-amd64-22.3.1.tar.gz/graalvm-ce-java17-22.3.1/Contents/Home/bin/java",
+        "jvmArgs" : [
+            "-XX:ThreadPriorityPolicy=1",
+            "-XX:+UnlockExperimentalVMOptions",
+            "-XX:+EnableJVMCIProduct",
+            "-XX:JVMCIThreadsPerNativeLibraryRuntime=1",
+            "-XX:-UnlockExperimentalVMOptions"
+        ],
+        "jdkVersion" : "17.0.6",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "17.0.6+10-jvmci-22.3-b13",
+        "warmupIterations" : 10,
+        "warmupTime" : "100 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 15,
+        "measurementTime" : "100 ms",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 2.5864190535256233,
+            "scoreError" : 0.20141179656168362,
+            "scoreConfidence" : [
+                2.38500725696394,
+                2.787830850087307
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.497825244002587,
+                "50.0" : 2.546165590040489,
+                "90.0" : 2.8571063751358206,
+                "95.0" : 3.258366586075389,
+                "99.0" : 3.258366586075389,
+                "99.9" : 3.258366586075389,
+                "99.99" : 3.258366586075389,
+                "99.999" : 3.258366586075389,
+                "99.9999" : 3.258366586075389,
+                "100.0" : 3.258366586075389
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    2.5516959010661187,
+                    2.5119026869338774,
+                    2.5009302388353256,
+                    2.5645902364442374,
+                    3.258366586075389,
+                    2.5895995678427743,
+                    2.5190660208848152,
+                    2.497825244002587,
+                    2.5145216808248145,
+                    2.562079003722021,
+                    2.51948873682887,
+                    2.546165590040489,
+                    2.567338473956403,
+                    2.5073708576480582,
+                    2.5853449777785737
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.29",
+        "benchmark" : "bench.PipelineOps.utilchaining",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Users/cdepaula/Library/Caches/Coursier/arc/https/github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.3.1/graalvm-ce-java17-darwin-amd64-22.3.1.tar.gz/graalvm-ce-java17-22.3.1/Contents/Home/bin/java",
+        "jvmArgs" : [
+            "-XX:ThreadPriorityPolicy=1",
+            "-XX:+UnlockExperimentalVMOptions",
+            "-XX:+EnableJVMCIProduct",
+            "-XX:JVMCIThreadsPerNativeLibraryRuntime=1",
+            "-XX:-UnlockExperimentalVMOptions"
+        ],
+        "jdkVersion" : "17.0.6",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "17.0.6+10-jvmci-22.3-b13",
+        "warmupIterations" : 10,
+        "warmupTime" : "100 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 15,
+        "measurementTime" : "100 ms",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 2.508422912251688,
+            "scoreError" : 0.042179739877226174,
+            "scoreConfidence" : [
+                2.466243172374462,
+                2.550602652128914
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.4684638531694048,
+                "50.0" : 2.497011117323839,
+                "90.0" : 2.5844257844808083,
+                "95.0" : 2.6302647943194923,
+                "99.0" : 2.6302647943194923,
+                "99.9" : 2.6302647943194923,
+                "99.99" : 2.6302647943194923,
+                "99.999" : 2.6302647943194923,
+                "99.9999" : 2.6302647943194923,
+                "100.0" : 2.6302647943194923
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    2.5174695843897523,
+                    2.5538664445883525,
+                    2.6302647943194923,
+                    2.4684638531694048,
+                    2.509892049636725,
+                    2.493089890700434,
+                    2.497011117323839,
+                    2.497535821695145,
+                    2.509875360133217,
+                    2.484886511554336,
+                    2.481246685909155,
+                    2.5176268796787338,
+                    2.4796246579832713,
+                    2.489720212672193,
+                    2.495769820021267
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.29",
+        "benchmark" : "bench.PipelineOps.utilpiped",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Users/cdepaula/Library/Caches/Coursier/arc/https/github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.3.1/graalvm-ce-java17-darwin-amd64-22.3.1.tar.gz/graalvm-ce-java17-22.3.1/Contents/Home/bin/java",
+        "jvmArgs" : [
+            "-XX:ThreadPriorityPolicy=1",
+            "-XX:+UnlockExperimentalVMOptions",
+            "-XX:+EnableJVMCIProduct",
+            "-XX:JVMCIThreadsPerNativeLibraryRuntime=1",
+            "-XX:-UnlockExperimentalVMOptions"
+        ],
+        "jdkVersion" : "17.0.6",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "17.0.6+10-jvmci-22.3-b13",
+        "warmupIterations" : 10,
+        "warmupTime" : "100 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 15,
+        "measurementTime" : "100 ms",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 2.4530263752997117,
+            "scoreError" : 0.058637133897934846,
+            "scoreConfidence" : [
+                2.3943892414017767,
+                2.5116635091976467
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.3079419917742126,
+                "50.0" : 2.473003118951341,
+                "90.0" : 2.494840177537405,
+                "95.0" : 2.4968047321536235,
+                "99.0" : 2.4968047321536235,
+                "99.9" : 2.4968047321536235,
+                "99.99" : 2.4968047321536235,
+                "99.999" : 2.4968047321536235,
+                "99.9999" : 2.4968047321536235,
+                "100.0" : 2.4968047321536235
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    2.46043025156993,
+                    2.4935304744599263,
+                    2.4968047321536235,
+                    2.4902337342539167,
+                    2.473003118951341,
+                    2.481784284864884,
+                    2.4829082605139368,
+                    2.4716020764771955,
+                    2.4542473409155443,
+                    2.3791858311779213,
+                    2.3079419917742126,
+                    2.3761623517275825,
+                    2.4806893025930794,
+                    2.4554374708546205,
+                    2.4914344072079513
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+

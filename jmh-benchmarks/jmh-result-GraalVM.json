@@ -1,0 +1,172 @@
+[
+    {
+        "jmhVersion" : "1.36",
+        "benchmark" : "my_bench.MyBench.sumNulls",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Users/cdepaula/Library/Caches/Coursier/arc/https/github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.3.2/graalvm-ce-java17-darwin-amd64-22.3.2.tar.gz/graalvm-ce-java17-22.3.2/Contents/Home/bin/java",
+        "jvmArgs" : [
+            "-XX:ThreadPriorityPolicy=1",
+            "-XX:+UnlockExperimentalVMOptions",
+            "-XX:+EnableJVMCIProduct",
+            "-XX:JVMCIThreadsPerNativeLibraryRuntime=1",
+            "-XX:-UnlockExperimentalVMOptions"
+        ],
+        "jdkVersion" : "17.0.7",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "17.0.7+7-jvmci-22.3-b18",
+        "warmupIterations" : 2,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 3063.933968783048,
+            "scoreError" : 92.83892570167137,
+            "scoreConfidence" : [
+                2971.0950430813764,
+                3156.7728944847195
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3026.8625862590798,
+                "50.0" : 3065.566106956788,
+                "90.0" : 3091.668457805255,
+                "95.0" : 3091.668457805255,
+                "99.0" : 3091.668457805255,
+                "99.9" : 3091.668457805255,
+                "99.99" : 3091.668457805255,
+                "99.999" : 3091.668457805255,
+                "99.9999" : 3091.668457805255,
+                "100.0" : 3091.668457805255
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    3091.668457805255,
+                    3059.1454948012233,
+                    3065.566106956788,
+                    3076.4271980928943,
+                    3026.8625862590798
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.36",
+        "benchmark" : "my_bench.MyBench.sumOption",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Users/cdepaula/Library/Caches/Coursier/arc/https/github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.3.2/graalvm-ce-java17-darwin-amd64-22.3.2.tar.gz/graalvm-ce-java17-22.3.2/Contents/Home/bin/java",
+        "jvmArgs" : [
+            "-XX:ThreadPriorityPolicy=1",
+            "-XX:+UnlockExperimentalVMOptions",
+            "-XX:+EnableJVMCIProduct",
+            "-XX:JVMCIThreadsPerNativeLibraryRuntime=1",
+            "-XX:-UnlockExperimentalVMOptions"
+        ],
+        "jdkVersion" : "17.0.7",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "17.0.7+7-jvmci-22.3-b18",
+        "warmupIterations" : 2,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 1876.0438741917715,
+            "scoreError" : 69.4526988601674,
+            "scoreConfidence" : [
+                1806.591175331604,
+                1945.4965730519389
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1852.0886735185186,
+                "50.0" : 1877.2943891496152,
+                "90.0" : 1899.7500427431612,
+                "95.0" : 1899.7500427431612,
+                "99.0" : 1899.7500427431612,
+                "99.9" : 1899.7500427431612,
+                "99.99" : 1899.7500427431612,
+                "99.999" : 1899.7500427431612,
+                "99.9999" : 1899.7500427431612,
+                "100.0" : 1899.7500427431612
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    1884.5814667420389,
+                    1866.5047988055244,
+                    1877.2943891496152,
+                    1852.0886735185186,
+                    1899.7500427431612
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.36",
+        "benchmark" : "my_bench.MyBench.sumSimple",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Users/cdepaula/Library/Caches/Coursier/arc/https/github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.3.2/graalvm-ce-java17-darwin-amd64-22.3.2.tar.gz/graalvm-ce-java17-22.3.2/Contents/Home/bin/java",
+        "jvmArgs" : [
+            "-XX:ThreadPriorityPolicy=1",
+            "-XX:+UnlockExperimentalVMOptions",
+            "-XX:+EnableJVMCIProduct",
+            "-XX:JVMCIThreadsPerNativeLibraryRuntime=1",
+            "-XX:-UnlockExperimentalVMOptions"
+        ],
+        "jdkVersion" : "17.0.7",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "17.0.7+7-jvmci-22.3-b18",
+        "warmupIterations" : 2,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 1802.3845777182516,
+            "scoreError" : 133.83602878883113,
+            "scoreConfidence" : [
+                1668.5485489294206,
+                1936.2206065070827
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1765.3417845040592,
+                "50.0" : 1796.21334141523,
+                "90.0" : 1859.2975051124745,
+                "95.0" : 1859.2975051124745,
+                "99.0" : 1859.2975051124745,
+                "99.9" : 1859.2975051124745,
+                "99.99" : 1859.2975051124745,
+                "99.999" : 1859.2975051124745,
+                "99.9999" : 1859.2975051124745,
+                "100.0" : 1859.2975051124745
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    1859.2975051124745,
+                    1796.21334141523,
+                    1802.2050003604254,
+                    1788.86525719907,
+                    1765.3417845040592
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+

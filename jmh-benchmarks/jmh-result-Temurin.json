@@ -1,0 +1,157 @@
+[
+    {
+        "jmhVersion" : "1.36",
+        "benchmark" : "my_bench.MyBench.sumNulls",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Users/cdepaula/Library/Caches/Coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_mac_hotspot_17_35.tar.gz/jdk-17+35/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "17",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "17+35",
+        "warmupIterations" : 2,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 4857.408402792811,
+            "scoreError" : 1323.5206903061824,
+            "scoreConfidence" : [
+                3533.8877124866285,
+                6180.929093098994
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4550.258112778536,
+                "50.0" : 4829.9859642857145,
+                "90.0" : 5412.132502433748,
+                "95.0" : 5412.132502433748,
+                "99.0" : 5412.132502433748,
+                "99.9" : 5412.132502433748,
+                "99.99" : 5412.132502433748,
+                "99.999" : 5412.132502433748,
+                "99.9999" : 5412.132502433748,
+                "100.0" : 5412.132502433748
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    5412.132502433748,
+                    4829.9859642857145,
+                    4596.481540192926,
+                    4898.183894273127,
+                    4550.258112778536
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.36",
+        "benchmark" : "my_bench.MyBench.sumOption",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Users/cdepaula/Library/Caches/Coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_mac_hotspot_17_35.tar.gz/jdk-17+35/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "17",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "17+35",
+        "warmupIterations" : 2,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 3500.423326980154,
+            "scoreError" : 453.36496155333646,
+            "scoreConfidence" : [
+                3047.0583654268175,
+                3953.7882885334902
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3344.1178863636364,
+                "50.0" : 3479.844211826087,
+                "90.0" : 3638.164986909091,
+                "95.0" : 3638.164986909091,
+                "99.0" : 3638.164986909091,
+                "99.9" : 3638.164986909091,
+                "99.99" : 3638.164986909091,
+                "99.999" : 3638.164986909091,
+                "99.9999" : 3638.164986909091,
+                "100.0" : 3638.164986909091
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    3446.3242886668963,
+                    3344.1178863636364,
+                    3593.6652611350573,
+                    3479.844211826087,
+                    3638.164986909091
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.36",
+        "benchmark" : "my_bench.MyBench.sumSimple",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Users/cdepaula/Library/Caches/Coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_mac_hotspot_17_35.tar.gz/jdk-17+35/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "17",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "17+35",
+        "warmupIterations" : 2,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 3567.325565650711,
+            "scoreError" : 585.516288751568,
+            "scoreConfidence" : [
+                2981.809276899143,
+                4152.841854402279
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3401.434549132948,
+                "50.0" : 3545.4949393831976,
+                "90.0" : 3816.52101525553,
+                "95.0" : 3816.52101525553,
+                "99.0" : 3816.52101525553,
+                "99.9" : 3816.52101525553,
+                "99.99" : 3816.52101525553,
+                "99.999" : 3816.52101525553,
+                "99.9999" : 3816.52101525553,
+                "100.0" : 3816.52101525553
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    3816.52101525553,
+                    3520.766317382125,
+                    3552.4110070997517,
+                    3401.434549132948,
+                    3545.4949393831976
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+
